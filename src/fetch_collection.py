@@ -20,8 +20,8 @@ client = boto3.client('opensearch', config=my_config)
 domainName = 'https://search-opensearch-haystack-domain-r3unwbnrwi55amapqsgacbp6d4.us-west-2.es.amazonaws.com'
 
 print("Using boto3 client-",client)
-username='Azadmin'
-password='Azadmin@1234'
+username=''
+password=''
 http_auth = (username, password),
 
 def indexData(host):
